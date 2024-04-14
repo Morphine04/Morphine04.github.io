@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url(Lambo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-height: 100%;
+}
+img{
+    max-width: 550px;
+    float: left;
+    border: 3px solid rgba(221, 148, 13, 0.911);
+    margin-right: 15px;
+}
+.row{
+    margin: 150px auto;
+    width: 70%;
+}
+.col-2{
+    color: white;
+}
+.col-2 h1{
+    color: rgba(221, 148, 13, 0.911);
+    font-weight: bold;
+    font-size: 50px;
+}
+.col-2 h4{
+    font-weight: bolder;
+}
+.col-2 p{
+    font-size: larger;
+}
+.btn{
+    display: inline-block;
+    background:  rgba(221, 148, 13, 0.911);
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: gray;
+}

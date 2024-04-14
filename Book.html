@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        .book-container a{
+            text-decoration: none;
+        }
+    </style>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inquiry</title>
+        <link rel="stylesheet" href="Book.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </head>
+    <body>
+        <div class="book-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="book-left">
+                <div class="book-contact-left-title">
+                    <h2>Inquire Now!</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="9b5c375a-5578-4bc4-9a1b-904e4aecb258">
+                <input type="text" name="name" placeholder="Your Name" class="book-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="book-inputs" required>
+                <input type="address" name="address" placeholder="Your Adress" class="book-inputs" required>
+                <textarea name="message" placeholder="Request..." class="book-inputs" required></textarea>
+                <button type="submit">Submit &#10147;</button>
+                <a href="index.html">Go back</a>
+            </form>
+            <div class="book-right">
+                <img src="FCS.png">
+            </div>
+        </div>
+    </body>
+
+</html>

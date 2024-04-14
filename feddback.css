@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Noto Sans", sans-serif;
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url(Lambo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-height: 100%;
+}
+.feedback{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fff{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.feedback-middle h2{
+    font-weight: 600;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.feedback-middle hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: rgba(221, 148, 13, 0.911);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.feedback-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+.fff textarea{
+    height: 140px;
+    width: 600px;
+    padding-top: 15px;
+    border-radius: 20px;
+    opacity: 0.6;
+}
+.fff button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: rgba(197, 130, 5);
+    transition: background 0.5s;
+    cursor: pointer;
+}
+.fff a{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: rgba(197, 130, 5);
+    transition: background 0.5s;
+    cursor: pointer;
+}
+.fff button:hover{
+    background: black;
+    opacity: 0.5;
+}
+.fff a:hover{
+    background: black;
+    opacity: 0.5;
+}
